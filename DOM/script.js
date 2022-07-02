@@ -15,7 +15,7 @@ button.onclick = () =>{
 let gas = document.querySelectorAll(".gas");
 
 for(let i = 0; i < gas.length; i++){
-    gas[i].onclick = function(){
+    gas[i].onclick = function(){        
         let gallons = document.querySelector('.gallons').value;
         let value = this.getAttribute('data');
         console.log(value*gallons);
